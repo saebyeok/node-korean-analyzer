@@ -3,7 +3,7 @@
 # Installation
 
 ```
- $ npm i node-arirang-analyzer --save 
+ $ npm i node-korean-analyzer --save 
 ```
  
 # Basic Usage
