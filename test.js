@@ -21,15 +21,7 @@ result = ktk.neSync(str, {
 
 console.log((new Date() - et) + 'ms');
 
-str = '실권은 신동빈 롯데그룹 회장(61)이 쥐고 있지만 신동주 전 일본 롯데홀딩스 부회장(62)이 지배구조 정점에 있는 광윤사와 롯데홀딩스의 최대주주로서 맞서고 있기 때문이다';
-result = ktk.neSync(str, {
-    queryMode : true
-});
+str = '예상과 달리 장마전선이 북상하지 못하고 남해안에만 머물고 있기 때문입니다. 오늘 남부와 제주도에는 장맛비가 이어지겠지만, 중부지방은 오후 한때 소나기가 지날 것으로 보입니다.     제주도와 전남 해안에는 이미 100mm에 가까운 호우가 쏟아졌습니다.';
+result = ktk.neSync(str );
 console.log('1', result);
 console.log((new Date() - et) + 'ms');
-
-/*
-ktk.ne(str, function(res){
-    console.log('2', res);
-});
-*/

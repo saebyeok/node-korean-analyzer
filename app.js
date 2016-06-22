@@ -9,7 +9,7 @@ dependencies.forEach(function(dependency){
 
 module.exports = {
     neSync : function( input , opt){
-        opt = opt || null;
+        opt = opt || {};
 
         var ka = java.newInstanceSync("org.apache.lucene.analysis.ko.KoreanAnalyzer");
         var res = [];
