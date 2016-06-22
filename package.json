@@ -1,6 +1,6 @@
 {
   "name": "node-korean-analyzer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "nodejs korean tokenizer using java arirang-analyzer",
   "main": "app.js",
   "dependencies": {
