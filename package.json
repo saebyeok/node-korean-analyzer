@@ -1,0 +1,14 @@
+{
+  "name": "node-korean-analyzer",
+  "version": "0.1.0",
+  "description": "nodejs korean tokenizer using java arirang-analyzer",
+  "main": "app.js",
+  "dependencies": {
+    "java": "^0.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saebyeok <sbyeok@gmail.com> (http://saebyeok.xyz)",
+  "license": "ISC"
+}
